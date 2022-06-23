@@ -4,6 +4,7 @@ from PyQt6.QtWidgets import QApplication
 
 from management.logger.logger import Log
 from management.objects.objects_manager import ObjectsManager
+from source.window.main_server_controller import MainServerWindow
 
 
 class MainClass:
@@ -17,6 +18,7 @@ class MainClass:
 
         try:
 
+            self.__window.show()
             _exit(self.__app.exec())
 
         except SystemExit:

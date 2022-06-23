@@ -1,6 +1,6 @@
 from gc import disable
 
-from main.main_class import MainClass
+from main_class import MainClass
 from management.objects.objects_manager import ObjectsManager
 
 
